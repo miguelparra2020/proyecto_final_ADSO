@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial;
+background-color: rgb(255, 96, 38);
+}
+
+#section_0{
+    width: 100%;
+    height: 25vh;
+
+}
+
+#section_1{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#inicio {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: -10%;
+    
+}
+#user{
+    color: #FF914D;
+}
+#logo_user{
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+    box-shadow: 0 0 8px 0 rgb(0,0,0,50%);
+    border-radius: 131px;
+}
+#pantalla-ingreso {
+    width: 270px;
+    height: 270px;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 16px 0 rgb(0,0,0,40%);
+}
+
+.centrar {
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+    
+    }
+
+    .espacio {
+        margin-bottom: 20px;
+        }
+
+#icono {
+    height: 30%;
+    width: 30%;
+    color: orange;
+}
+        
+        input {
+        background-color: #ECF0F1;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 200;
+        padding: 10px 0;
+        width: 250px;
+        transition: border .5s;
+        padding-left: 15px;
+        
+        }
+        
+        input:focus {
+        border: 2px solid orangered;
+        box-shadow: none;
+        }
+        
+.ing {
+    border: 2px solid transparent;
+    background: black;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 5px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 30px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.ing:hover {
+    background-color: #FF914D;
+}
+
+.olvidaste {
+    font-size: 12px;
+    color: grey;
+    display: block;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.olvidaste:hover{
+    color: rgb(0, 106, 148);
+}
+    

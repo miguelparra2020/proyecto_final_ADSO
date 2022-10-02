@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" type="text/css" href="./registrar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
+
 <body>
-    Hola mundo
+    <div id="section_0"></div>
+    <div id="section_1">
+        <div id="inicio">
+            <div id="logo_user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+                    class="bi bi-person-circle" viewBox="0 0 16 16" id="user">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+            </div>
+        </div>
+
+        <div id="pantalla-ingreso">
+            <div class="centrar">
+                <div class="espacio">
+                    <input type="text" class="login-field" value="" placeholder="Documento de identidad"
+                        id="login-name">
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+
+                <div class="espacio">
+                    <input type="password" class="login-field" value="" placeholder="Contraseña" id="login-pass">
+                    <label class="login-field-icon fui-lock" for="login-pass"></label>
+                </div>
+
+                <a class="ing" href="/Viasualizar_todo_adm/menu_adm.html">Ingresar</a>
+                <a class="olvidaste" href="./restablecer_contraseña.html">Olvidaste tu contraseña?</a>
+
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
